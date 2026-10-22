@@ -1,0 +1,12 @@
+let nom = "emmanuela";
+let age = 26;
+age = 27;
+const ville = "abidjan";
+let est_etudiant = true;
+console.log("son nom est :",nom);
+console.log("son age est :",age);
+console.log("il vient de :",ville);
+console.log("il est etudiant :",est_etudiant);
+let a = 5;
+let b = 6;
+let result = a !== b;
