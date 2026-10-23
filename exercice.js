@@ -22,5 +22,14 @@ console.log("montant TTC :", montant_total_TTC, "FCFA");
 console.log("livraison :", frais_de_livraison, "FCFA");
 console.log("TOTAL À PAYER :", montant_total_à_payer, "FCFA");
 console.log("prix moyen TTC par produit :", prix_moyen_par_produit, "FCFA");
+console.log("")
+console.log("type du nom :", typeof nom);
+console.log("type du prix :", typeof prix_unitaire);
+console.log("type du produit :", typeof produit);
+console.log("type de la quantité :", typeof quantité);
+console.log("type du frais de livraison :", typeof frais_de_livraison);
+console.log("type du taux de TVA :", typeof TVA);
+console.log("type du montant total des produits :", typeof montant_total_produit);
+
 
 
