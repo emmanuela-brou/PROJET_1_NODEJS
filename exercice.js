@@ -8,7 +8,7 @@ const montant_total_produit = prix_unitaire * quantité;
 const montant_total_TVA = (montant_total_produit * TVA) / 100;
 const montant_total_TTC = montant_total_produit + montant_total_TVA;
 const montant_total_à_payer = montant_total_TTC + frais_de_livraison;
-const prix_moyen_par_produit = montant_total_à_payer / quantité;
+const prix_moyen_par_produit = montant_total_TTC / quantité;
 
 console.log("===FACTURE DE COMMANDE===");
 console.log("client :", nom);
